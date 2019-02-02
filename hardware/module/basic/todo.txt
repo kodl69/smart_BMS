@@ -1,0 +1,3 @@
+Change pin on connector to same side for connection next module in the same side pin.
+Depend resistors on pin conectors for security in maniulation. 
+Apply resistor to Vcc ATTINY for simple filtering Vcc
