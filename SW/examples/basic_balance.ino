@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   // read the input on analog pin 1:
   int sensorValue = analogRead(A1); // VCC=1024*Vref/analogRead(A1)  - for Vref=1200mV  is VCC=1228800/analogRead(A1)
- if (sensorValue>balance)
+ if (sensorValue<balance)
    {
     digitalWrite(balancePin, HIGH);
    }
